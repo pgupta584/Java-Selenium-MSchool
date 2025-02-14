@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MyFirstTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", "/Users/payzapp-automation/Documents/Practice-Demo/MSchool/Java-Selenium/drivers/chromedriver"); // Update the path
 
@@ -27,8 +27,12 @@ public class MyFirstTest {
 //        WebElement email_field = driver.findElement(By.cssSelector("input[id=\"email\"]"));
         WebElement email_field = driver.findElement(By.xpath("//input[@id='email']"));
         email_field.sendKeys("Pankaj Gupta");
-
+        Thread.sleep(5000);
+        email_field.clear();
+        email_field.sendKeys("pankajonlinetutor@gmail.com");
+        Thread.sleep(2000);
+        
         // Close the browser
-        //driver.quit();
+        driver.quit();
     }
 }
