@@ -1,10 +1,11 @@
-package selenium;
+package day4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
-public class RadioButton {
+public class ClickAndHoldTest {
     public static void main(String[] args) throws InterruptedException {
         // Set the path to the ChromeDriver executable
         //System.setProperty("webdriver.chrome.driver", "/Users/payzapp-automation/Documents/Practice-Demo/MSchool/Java-Selenium/drivers/chromedriver"); // Update the path
@@ -13,20 +14,19 @@ public class RadioButton {
         ChromeDriver driver = new ChromeDriver();
 
         // Open a website
-        driver.get("https://www.facebook.com/r.php?entry_point=login");
-        String sex = "Custom"; // Male
-        // Clicking on Button
-        Thread.sleep(2000);
-        WebElement radioButton = driver.findElement(By.xpath("//label[text()='"+sex+"']/input"));
-        if(radioButton.isEnabled() && radioButton.isSelected()) {
-        	System.out.println("Already Selected");
-        }
-        else {
-        	radioButton.click();
-            Thread.sleep(5000);
-        }
+        driver.get("https://www.flipkart.com/");
+        
+        // Mouse Hover
+        WebElement login = driver.findElement(By.xpath("//span[text()='Login']"));
+        
+        // ACtion Class Object
+        Actions act = new Actions(driver);
+        act.moveToElement(login).perform();
+        
+        Thread.sleep(5000);
                 
         // Close the browser
         driver.quit();
+        
     }
 }
