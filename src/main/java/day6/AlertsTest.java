@@ -62,6 +62,8 @@ public class AlertsTest {
         }else {
         	System.out.println("Test Failed");
         }
+        
         driver.quit();
+
 	}
 }
