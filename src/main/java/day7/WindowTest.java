@@ -22,11 +22,11 @@ public class WindowTest {
         driver.findElement(By.linkText("Click Here")).click();
         
         // Get Current Window ID
-        String mainWindow = driver.getWindowHandle();
+        String mainWindow = driver.getWindowHandle();//1
         System.out.println("mainWindow --> "+ mainWindow);
         
         // Get ALL Window ID
-        Set<String> allWindow = driver.getWindowHandles();
+        Set<String> allWindow = driver.getWindowHandles();//1,2
         System.out.println("allWindow --> "+ allWindow);
 
         for (String window: allWindow) {

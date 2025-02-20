@@ -17,7 +17,9 @@ public class IframeTest2 {
         driver.get("https://the-internet.herokuapp.com/iframe");
         
         // Get the Normal Text before iFrame
-        String mainText = driver.findElement(By.xpath("//h3[text()='An iFrame containing the TinyMCE WYSIWYG Editor']")).getText();
+        WebElement main = driver.findElement(By.xpath("//h3[text()='An iFrame containing the TinyMCE WYSIWYG Editor']"));
+        String mainText = main.getText();
+        
         System.out.println("mainText --> "+ mainText);
         
         // Switch to the iFrame
