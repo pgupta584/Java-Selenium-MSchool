@@ -1,5 +1,7 @@
 package day8;
 import java.time.Duration;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -19,18 +21,29 @@ public class JavaScriptTest2 {
         
 
         // Open a website
-        driver.get("https://www.facebook.com/");
+        driver.get("https://www.hyrtutorials.com/p/alertsdemo.html#google_vignette");
         
-        // Click on Slow Element - Normal Click
-        WebElement slowElement = driver.findElement(By.id("email"));
-//        slowElement.click();
-        
-        // JS - Click Using JS
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         // Pass the Text to field
-        jsExecutor.executeScript("arguments[0].value='Pankaj';", slowElement);
-        jsExecutor.executeScript("window.scrollTo(200, document.body.scrollHeight);");
+//        jsExecutor.executeScript("window.scrollTo(1, document.body.scrollHeight);");
+        
+        WebElement slowElement = driver.findElement(By.id("promptBox"));
+        // Click into view
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", slowElement);
+
         Thread.sleep(5000);
+        
+        // Click on Slow Element - Normal Click
+        
+        slowElement.click();
+        Thread.sleep(5000);
+        
+        Alert alt = driver.switchTo().alert();
+        alt.sendKeys("Hello");
+        alt.accept();
+        Thread.sleep(5000);
+
+
       
         
         // Quit the Browser
