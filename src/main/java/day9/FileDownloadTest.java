@@ -27,11 +27,11 @@ public class FileDownloadTest {
       WebDriver driver = new ChromeDriver(options);
 
         // Open a web site
-        driver.get("https://the-internet.herokuapp.com/download");
+      driver.get("https://the-internet.herokuapp.com/download");
         
-        // File Download Button
-        WebElement file = driver.findElement(By.linkText("sample_media_file.png"));
-        file.click();
+	    // File Download Button
+	    WebElement file = driver.findElement(By.linkText("sample_media_file.png"));
+	    file.click();
 
         
 
