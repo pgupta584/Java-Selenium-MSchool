@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-04T21:33:33 IST" name="Suite" finished-at="2025-03-04T21:33:33 IST" duration-ms="120">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T21:33:33 IST" name="Test 1" finished-at="2025-03-04T21:33:33 IST" duration-ms="46">
+      <class name="day12.LoginTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="connectDB" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="launchBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTestWithInvalidUser()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="loginTestWithInvalidUser" finished-at="2025-03-04T21:33:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalidUser -->
+        <test-method signature="loginTestWithValidUser()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="loginTestWithValidUser" finished-at="2025-03-04T21:33:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValidUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="closeBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disConnectDB()[pri:0, instance:day12.LoginTest@36c88a32]" started-at="2025-03-04T21:33:33 IST" name="disConnectDB" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disConnectDB -->
+      </class> <!-- day12.LoginTest -->
+    </test> <!-- Test 1 -->
+    <test started-at="2025-03-04T21:33:33 IST" name="Test 2" finished-at="2025-03-04T21:33:33 IST" duration-ms="8">
+      <class name="day12.VerifyTitleTest">
+        <test-method is-config="true" signature="setupEnvironment()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="setupEnvironment" finished-at="2025-03-04T21:33:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnvironment -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="connectDB" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="verifyTitleTest()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="verifyTitleTest" finished-at="2025-03-04T21:33:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="launchBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="closeBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disConnectDB()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="disConnectDB" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disConnectDB -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:day12.VerifyTitleTest@31d7b7bf]" started-at="2025-03-04T21:33:33 IST" name="generateReport" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- day12.VerifyTitleTest -->
+      <class name="day12.LoginTest2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:day12.LoginTest2@635eaaf1]" started-at="2025-03-04T21:33:33 IST" name="launchBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTestWithBlockedUser()[pri:0, instance:day12.LoginTest2@635eaaf1]" started-at="2025-03-04T21:33:33 IST" name="loginTestWithBlockedUser" finished-at="2025-03-04T21:33:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithBlockedUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:day12.LoginTest2@635eaaf1]" started-at="2025-03-04T21:33:33 IST" name="closeBrowser" finished-at="2025-03-04T21:33:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- day12.LoginTest2 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

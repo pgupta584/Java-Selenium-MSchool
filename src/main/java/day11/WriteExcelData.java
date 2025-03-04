@@ -17,17 +17,17 @@ public class WriteExcelData {
 
         // Create cells and set values in the first row
         row.createCell(0).setCellValue("Name");  // Column 1: Name
-        row.createCell(1).setCellValue("Age");   // Column 2: Age
-
-        // Create second row (row 1) to add some data
-        row = sheet.createRow(1);
-        row.createCell(0).setCellValue("Pankaj");
-        row.createCell(1).setCellValue(30);
-
-        // Create third row (row 2) to add another data
-        row = sheet.createRow(2);
-        row.createCell(0).setCellValue("Paras");
-        row.createCell(1).setCellValue(25);
+//        row.createCell(1).setCellValue("Age");   // Column 2: Age
+//
+//        // Create second row (row 1) to add some data
+//        row = sheet.createRow(1);
+//        row.createCell(0).setCellValue("Pankaj");
+//        row.createCell(1).setCellValue(30);
+//
+//        // Create third row (row 2) to add another data
+//        row = sheet.createRow(2);
+//        row.createCell(0).setCellValue("Paras");
+//        row.createCell(1).setCellValue(25);
 
         // Write the workbook to a file
         try (FileOutputStream fileOut = new FileOutputStream("/Users/payzapp-automation/Documents/Practice-Demo/MSchool/Java-Selenium/fileDownloads/SimpleData.xlsx")) {
