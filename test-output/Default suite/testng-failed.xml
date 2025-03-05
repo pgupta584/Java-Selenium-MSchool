@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day12.TestNgTest1">
+      <class name="day13.DataProvidorTest4">
         <methods>
-          <include name="testfn1"/>
+          <include name="loginToWeb" invocation-numbers="1"/>
+          <include name="CloseLaunch"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- day12.TestNgTest1 -->
+      </class> <!-- day13.DataProvidorTest4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
