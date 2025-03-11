@@ -33,6 +33,8 @@ public class ExtentTestListerner {
 
         // Log info
         test.info("Test execution started");
+        test.info("Test execution started");
+
 
         try {
             Assert.assertEquals(false, false); // This will Pass

@@ -21,7 +21,6 @@ public class ExtentTestListners implements ITestListener{
         // Create an instance of ExtentReports
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter); // Attach the reporter to ExtentReports
-		
 	  }
 
 	 

@@ -37,5 +37,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/payzapp-automation/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar" sourcepath="/Users/payzapp-automation/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-core"/>
+			<attribute name="maven.version" value="7.21.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
