@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 11 21:10:59 IST 2025</td>
+<td>Started on:</td><td>Wed Mar 12 19:34:31 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (136 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (150 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='day16.TestRunner.setUpClass()'><b>setUpClass</b><br>Test class: day16.TestRunner<br>Parameters: org.testng.TestRunner@c333c60</td>
-<td><div><pre>java.lang.IllegalArgumentException: path must exist: /Java-Selenium/src/test/resources/login.feature
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:125)
+<td title='day16.TestRunner.setUpClass()'><b>setUpClass</b><br>Test class: day16.TestRunner<br>Parameters: org.testng.TestRunner@75437611</td>
+<td><div><pre>java.lang.NoSuchMethodError: &apos;void io.cucumber.messages.types.TestRunStarted.&lt;init&gt;(io.cucumber.messages.types.Timestamp, java.lang.String)&apos;
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunStarted(CucumberExecutionContext.java:88)
+	at io.cucumber.core.runtime.CucumberExecutionContext.startTestRun(CucumberExecutionContext.java:57)
+	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:126)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -112,14 +108,10 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div><a href='#' onClick='toggleBox("stack-trace873610597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace873610597'><pre>java.lang.IllegalArgumentException: path must exist: /Java-Selenium/src/test/resources/login.feature
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:125)
+<div class='stack-trace' id='stack-trace873610597'><pre>java.lang.NoSuchMethodError: &apos;void io.cucumber.messages.types.TestRunStarted.&lt;init&gt;(io.cucumber.messages.types.Timestamp, java.lang.String)&apos;
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunStarted(CucumberExecutionContext.java:88)
+	at io.cucumber.core.runtime.CucumberExecutionContext.startTestRun(CucumberExecutionContext.java:57)
+	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:126)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
